@@ -1,28 +1,32 @@
 # QR Code Generator 📱
 
-A simple and beginner-friendly Python project that generates QR codes from text or URLs.
+A simple Python web app that generates QR codes from text or URLs.
 
-This project is perfect for learning:
-- Python basics
-- Using external libraries
-- Git & GitHub workflow
+🌐 **Live Demo:**  
+https://qr-code-generator-glty.onrender.com
 
 ---
 
 ## 🚀 Features
-
-- Generate QR codes from any text or URL
-- Save QR code as a PNG image
-- Simple and clean Python script
-- Easy to extend and customize
+- Generate QR codes instantly
+- Download QR code as PNG
+- Clean and responsive UI
+- Beginner-friendly project
 
 ---
 
 ## 🛠️ Tech Stack
-
 - Python 3
-- [qrcode](https://pypi.org/project/qrcode/)
-- Pillow (PIL)
+- Flask
+- qrcode
+- Pillow
+- HTML & CSS
 
 ---
 
+## ▶️ Run Locally
+
+git clone https://github.com/<your-username>/qr-code-generator.git
+cd qr-code-generator
+pip install -r requirements.txt
+python app.py
